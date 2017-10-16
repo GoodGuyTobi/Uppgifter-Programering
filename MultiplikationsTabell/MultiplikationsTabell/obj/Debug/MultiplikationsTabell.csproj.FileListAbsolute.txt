@@ -1,0 +1,7 @@
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\bin\Debug\MultiplikationsTabell.exe.config
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\bin\Debug\MultiplikationsTabell.exe
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\bin\Debug\MultiplikationsTabell.pdb
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\obj\Debug\MultiplikationsTabell.csprojResolveAssemblyReference.cache
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\obj\Debug\MultiplikationsTabell.csproj.CoreCompileInputs.cache
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\obj\Debug\MultiplikationsTabell.exe
+C:\Users\elev\Google Drive\Programmering\Uppgifter-Programering\MultiplikationsTabell\MultiplikationsTabell\obj\Debug\MultiplikationsTabell.pdb
