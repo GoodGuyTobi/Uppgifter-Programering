@@ -1,4 +1,4 @@
-﻿//Arvid Tapper. Kod ej kommenterad, kommer att kommenteras senare under lektionstid.
+﻿//Code by: Arvid Tapper (GoodGuyTobi), Te16, Drottning Blanka.
 using System;
 using System.Collections.Generic;
 using System.Linq;
