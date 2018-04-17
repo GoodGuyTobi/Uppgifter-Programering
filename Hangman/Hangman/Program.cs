@@ -138,8 +138,9 @@ namespace Hangman
                         
                     }
             }
-            if (gameOver)   // Om gameOver har värdet true, kalla på metoden Win.
+            if (gameOver)   // Om gameOver har värdet true, skriv ut det färdiga ordet, kalla sedan på metoden Win.
             {
+                PrintWord();
                 Win();
             } else          // Annars, lämna metoden.
             {
@@ -156,7 +157,7 @@ namespace Hangman
         static void Win()   //Metod som hanterar vinst.
         {
             // Meddelande som berättar att man vunnit och hur mycket HP man hade kvar.
-            Console.Write("Congratulations! You have won the game of Hangman with " + noOfGuesses + " HP left!");
+            Console.Write("\nCongratulations! You have won the game of Hangman with " + noOfGuesses + " HP left!");
             isPlaying = false;  // boolen isPlaying blir false, alltså while-loopen i Game() lämnas och spelaren får upp menyn.
         }
 
@@ -164,7 +165,7 @@ namespace Hangman
         {
             // Console.WriteLine som ger frågan om spelaren vill spela en gång till.
             Console.WriteLine("\n\nWould you like to play again? Then press '1'\n" +
-                "If you would like to quit, press any key followed by enter.");
+                "If you would like to quit, press enter.");
             string menuChoice = Console.ReadLine(); // Läser av input av användaren och sparar input under namnet menuChoice.
             if (menuChoice != "1")  // Om input inte var 1 kommer applikationen att stängas ner.
             {
