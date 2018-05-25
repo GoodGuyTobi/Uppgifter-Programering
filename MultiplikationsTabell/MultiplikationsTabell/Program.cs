@@ -14,20 +14,25 @@ namespace MultiplikationsTabell
             Menu();
         }
 
-        static void Menu()
+        static void Menu()      // Metodens namn, Meny
         {
-            int userChoice = -1;
-            while (userChoice != 0)
+            int userChoice = -1;    // Vi gör en integer med namn userChoice och sätter värdet till -1.
+            while (userChoice != 0) // Sålänge som userChoice inte är 0 loopas kodblocken, och eftersom userChoice är
+                                    // -1 kommer den att loopa.
             {
+                    // Meddelande till användaren för att öka användarvänligheten.
                 Console.WriteLine("Skriv in ett valfritt tal!\n"
                     + "--------------------------------------------------");
-
+                    // Kallar på metoden Tabell
                 Tabell();
                 
             }
         }
         static void Tabell()
         {
+            // Konsolen tar användarens input som en stäng (userValidInput), som sedan går igenom en tryParse för att
+            // konvertera stängen till en float. Om konverteringen lyckades skrivs multiplikationstabellen ut med 
+            // det angivna talet gånger 0-10.
             float tal = userValidInput(Console.ReadLine());
 
             Console.WriteLine("--------------------------------------------------\n"
@@ -47,6 +52,9 @@ namespace MultiplikationsTabell
 
         static float userValidInput(string _tal)
         {
+                        // Här tas strängen in som användaren anger och sedan sker en TryParse med användarens input.
+                        // Om konverteringen lyckades får vi en bool som är true och det gör att våran if-sats vet ifall 
+                        // den ska ge ett felmeddelande eller skicka ut tabellen.
             float tal;
             bool validInput = float.TryParse(_tal, out tal);
             if (!validInput)

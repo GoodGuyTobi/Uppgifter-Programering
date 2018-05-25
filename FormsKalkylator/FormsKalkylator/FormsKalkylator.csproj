@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9624E7C5-3048-4221-976E-F97F99C2A32A}</ProjectGuid>
+    <ProjectGuid>{C1695C92-2EC9-4560-9E9A-FFCC9E98F2C5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Forms_Kalkylator</RootNamespace>
-    <AssemblyName>Forms Kalkylator</AssemblyName>
+    <RootNamespace>FormsKalkylator</RootNamespace>
+    <AssemblyName>FormsKalkylator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
