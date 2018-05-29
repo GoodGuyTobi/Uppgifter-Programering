@@ -9,6 +9,7 @@ namespace TalPyramid
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             //Här har jag länkat min metod, Menu.
@@ -17,11 +18,7 @@ namespace TalPyramid
         //Här har jag skapat en ny metod för menyn för läsbarhetens skull.
         static void Menu()
         {
-            //Här ser jag till att när användaren klickar 1 så är det 1 som kommer upp och inte
-            //0 tack vare att jag berättar för datorn att den ska räkna användarens input som
-            //-1 då den vill börja från 0.
-            long userChoice = -1;
-            
+            long userChoice = -1; // Sätter userChoice till -1 så att while-loopen kommer köras.
             //Här har jag satt en loop så att programmet körs.
             while (userChoice != 0)
             {
