@@ -126,10 +126,10 @@ namespace MultiplikationsTabellRemake
             Console.Write("\n Press any button to continue, if you would like to leave; please type 'exit'\n" +
                 " Your choice: ");
             string continueOrLeave = Console.ReadLine();    // ReadLine som sparar användarens input som string.
-            string upper = continueOrLeave.ToUpper();       // String av användarens input omgjort till versaler då man inte
-                                                            // vet om användaren skriver med store eller små bokstäver.
+            continueOrLeave.ToUpper();       // String av användarens input omgjort till versaler då man inte
+                                                // vet om användaren skriver med store eller små bokstäver.
 
-            if (upper == "EXIT")        // Om användaren skrev exit kommer applikationen att stängas ner.
+            if (continueOrLeave == "EXIT")        // Om användaren skrev exit kommer applikationen att stängas ner.
             {
                 Environment.Exit(0);
             } else                      // Annars rensas konsolen och while-loopen gör att applikationen startar om.
